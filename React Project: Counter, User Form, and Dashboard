@@ -1,0 +1,92 @@
+# React Project: Counter, User Form, and Dashboard
+
+##  Overview
+This is a **React-based web application** featuring:
+- **Counter** with smooth Bezier curve-based background transition.
+- **User Form** with validation, local storage persistence, and unsaved changes warning.
+- **Rich Text Editor** for user data visualization.
+- **Dashboard** with **React Charts** for user activity trends.
+- **Google Authentication** for sign-in/sign-out.
+- **Material UI & React Spring** for an enhanced UI/UX.
+
+##  Features
+### Counter
+- **Increment, Decrement, and Reset buttons**.
+- **Bezier-curve animated background transition** using `react-spring`.
+- **LocalStorage persistence** to retain the counter state.
+
+###  User Form
+- Fields for **Name, Address, Email, and Phone**.
+- **Auto-generates unique user ID**.
+- **LocalStorage support** to save user data.
+- **Unsaved changes warning** before navigation.
+
+### Rich Text Editor
+- Displays **user data in formatted text**.
+- Supports **bold, italic, underline, and lists**.
+- Data **persists across sessions**.
+
+###  Dashboard
+- Uses **React Charts** to visualize user profile trends.
+- Displays **counter and user activity insights**.
+
+###  Google Authentication
+- Users can **sign in with Google**.
+- Secure **sign-out feature**.
+- Uses **Firebase Authentication**.
+
+##  Technologies Used
+- **React.js** (Functional Components, Hooks)
+- **React Router** for navigation
+- **Material UI** for modern UI components
+- **React Spring** for smooth animations
+- **Redux & LocalStorage** for state persistence
+- **Firebase Authentication** for Google Sign-In
+- **React Chart.js** for data visualization
+
+##  Installation & Setup
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/react-project.git
+   cd react-project
+   ```
+2. **Install dependencies**:
+   ```sh
+   npm install  # or yarn install
+   ```
+3. **Setup Firebase**:
+   - Create a Firebase project.
+   - Enable **Google Authentication** in Firebase Console.
+   - Add `firebaseConfig.js` in the root with your Firebase credentials.
+
+4. **Run the project**:
+   ```sh
+   npm start  # or yarn start
+   ```
+
+## Deployment
+1. **Build the project**:
+   ```sh
+   npm run build
+   ```
+2. **Deploy using Vercel or Netlify**:
+   - For **Vercel**:
+     ```sh
+     npm install -g vercel
+     vercel
+     ```
+   - For **Netlify**:
+     ```sh
+     npm install -g netlify-cli
+     netlify deploy
+     ```
+
+## Future Enhancements
+- **Dark Mode Support**
+- **More Dashboard Insights**
+- **Backend API Integration**
+
+## Contact
+For queries, contact **tejagarikapaati@gmail.com**
+
+
